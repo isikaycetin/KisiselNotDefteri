@@ -2,7 +2,6 @@
 
 Bu proje, kullanıcıların kişisel notlarını oluşturabileceği, düzenleyebileceği ve silebileceği bir *Kişisel Not Defteri* uygulamasıdır. Uygulama, *Java* dilinde geliştirilmiş ve *Swing* kullanılarak bir grafik kullanıcı arayüzü (GUI) sunmaktadır. Veritabanı işlemleri için *MySQL* kullanılmıştır.
 
----
 
 ## 📌 Proje Özellikleri
 
