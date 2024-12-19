@@ -1,12 +1,3 @@
--- phpMyAdmin SQL Dump
--- version 5.2.1
--- https://www.phpmyadmin.net/
---
--- Anamakine: 127.0.0.1:3306
--- Üretim Zamanı: 19 Ara 2024, 14:14:31
--- Sunucu sürümü: 8.0.40
--- PHP Sürümü: 8.2.18
-
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
