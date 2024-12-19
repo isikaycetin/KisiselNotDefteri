@@ -26,7 +26,7 @@ Bu proje, kullanıcıların kişisel notlarını oluşturabileceği, düzenleyeb
 - *State*: Notların durumlarına göre farklı işlemler gerçekleştirilmesini sağladı (örneğin: "Oluşturuldu", "Düzenleniyor", "Siliniyor").
 - *Decorator*- Not objelerine etiket eklemek ve onları modifiye etmek için kullanılır.
 - *Abstract Class*: Notların temel özelliklerini ve davranışlarını tanımlamak için kullanıldı.
-
+---
 # Kullanılan Sayfalar
 
 - **Database Connection Sınıfı (Singleton Deseni)**: Veritabanı bağlantısını yöneten ve yalnızca bir bağlantının oluşmasını sağlayan Singleton deseni kullanılarak oluşturulmuş sınıf.
