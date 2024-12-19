@@ -1,5 +1,5 @@
 ## Proje Ekibi
-*https://github.com/YildirayParlak/KisiselNotDefteri/tree/main* \n
+*https://github.com/YildirayParlak/KisiselNotDefteri/tree/main* <div></div>
 *https://github.com/isikaycetin/KisiselNotDefteri*
 
 # Kişisel Not Defteri Uygulaması
