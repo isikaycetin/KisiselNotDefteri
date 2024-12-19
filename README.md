@@ -27,20 +27,22 @@ Bu proje, kullanıcıların kişisel notlarını oluşturabileceği, düzenleyeb
 - *Decorator*- Not objelerine etiket eklemek ve onları modifiye etmek için kullanılır.
 - *Abstract Class*: Notların temel özelliklerini ve davranışlarını tanımlamak için kullanıldı.
 
-### Kullanılan Sayfalar
-Database Connection Sınıfı (Singleton Deseni): Veritabanı bağlantısını yöneten ve yalnızca bir bağlantının oluşmasını sağlayan Singleton deseni kullanılarak oluşturulmuş sınıf.
-Observer: Bildirimleri almak için kullanılan ve belirli bir olay olduğunda tetiklenen, diğer sınıflardan veri alan arayüz.
-Observable: Observer'lara mesaj gönderen ve onların güncellenmesini sağlayan sınıf, gözlemlenen nesnenin durumunu takip eder.
-NotDAO: Not verilerinin veritabanı işlemleri (ekleme, silme, güncelleme) ile yönetilmesini sağlayan soyut sınıf.
-BaseNot: Ortak not özelliklerini (başlık, içerik, tarih, kullanıcı id vb.) tutan ve alt sınıflarına genel veri yapısını sağlayan soyut sınıf.
-Not: BaseNot sınıfından türeyen ve ek olarak etiketler, kategori gibi özellikleri barındıran, notların detaylarını yöneten sınıf.
-NotDecorator: Mevcut notları süsleyerek yeni özellikler ekleyen tasarım deseni olan Decorator'ı implement eden sınıf.
-NotDefteriUI: Kullanıcı arayüzünü sağlayan ve notlarla ilgili işlemleri (ekleme, silme, güncelleme, filtreleme) kullanıcıya sunan sınıf.
-RegisterUI: Kullanıcının sisteme kayıt olmasını sağlayan arayüz, kullanıcı adı ve şifre alır.
-RegularUserDAO: Normal kullanıcıların notlarını yönetmek için NotDAO sınıfını implement eden ve veritabanından notları çeken sınıf.
-AdminUserDAO: Admin kullanıcılarının notlarını yönetmek için NotDAO sınıfını implement eden ve veritabanından admin notlarını çeken sınıf.
-LoginUI: Kullanıcıların giriş yapabilmesi için arayüz sağlayan sınıf, kullanıcı adı ve şifre ile doğrulama yapar.
-NotDAOFactory: Kullanıcı türüne göre (admin ya da normal kullanıcı) doğru NotDAO sınıfını oluşturan fabrika sınıfı.
+# Kullanılan Sayfalar
+
+- **Database Connection Sınıfı (Singleton Deseni)**: Veritabanı bağlantısını yöneten ve yalnızca bir bağlantının oluşmasını sağlayan Singleton deseni kullanılarak oluşturulmuş sınıf.
+- **Observer**: Bildirimleri almak için kullanılan ve belirli bir olay olduğunda tetiklenen, diğer sınıflardan veri alan arayüz.
+- **Observable**: Observer'lara mesaj gönderen ve onların güncellenmesini sağlayan sınıf, gözlemlenen nesnenin durumunu takip eder.
+- **NotDAO**: Not verilerinin veritabanı işlemleri (ekleme, silme, güncelleme) ile yönetilmesini sağlayan soyut sınıf.
+- **BaseNot**: Ortak not özelliklerini (başlık, içerik, tarih, kullanıcı id vb.) tutan ve alt sınıflarına genel veri yapısını sağlayan soyut sınıf.
+- **Not**: BaseNot sınıfından türeyen ve ek olarak etiketler, kategori gibi özellikleri barındıran, notların detaylarını yöneten sınıf.
+- **NotDecorator**: Mevcut notları süsleyerek yeni özellikler ekleyen tasarım deseni olan Decorator'ı implement eden sınıf.
+- **NotDefteriUI**: Kullanıcı arayüzünü sağlayan ve notlarla ilgili işlemleri (ekleme, silme, güncelleme, filtreleme) kullanıcıya sunan sınıf.
+- **RegisterUI**: Kullanıcının sisteme kayıt olmasını sağlayan arayüz, kullanıcı adı ve şifre alır.
+- **RegularUserDAO**: Normal kullanıcıların notlarını yönetmek için NotDAO sınıfını implement eden ve veritabanından notları çeken sınıf.
+- **AdminUserDAO**: Admin kullanıcılarının notlarını yönetmek için NotDAO sınıfını implement eden ve veritabanından admin notlarını çeken sınıf.
+- **LoginUI**: Kullanıcıların giriş yapabilmesi için arayüz sağlayan sınıf, kullanıcı adı ve şifre ile doğrulama yapar.
+- **NotDAOFactory**: Kullanıcı türüne göre (admin ya da normal kullanıcı) doğru NotDAO sınıfını oluşturan fabrika sınıfı.
+
 
 ## 🛠 Kullanılan Teknolojiler ve Araçlar
 
