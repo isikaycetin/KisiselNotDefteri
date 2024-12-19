@@ -1,3 +1,7 @@
+## Proje Ekibi
+*https://github.com/YildirayParlak/KisiselNotDefteri/tree/main*
+*https://github.com/isikaycetin/KisiselNotDefteri*
+
 # Kişisel Not Defteri Uygulaması
 
 Bu proje, kullanıcıların kişisel notlarını oluşturabileceği, düzenleyebileceği,silebileceği ve kategorize edebileceği bir *Kişisel Not Defteri* uygulamasıdır. Uygulama, *Java* dilinde geliştirilmiş ve *Swing* kullanılarak bir grafik kullanıcı arayüzü (GUI) sunmaktadır. Veritabanı işlemleri için *MySQL* kullanılmıştır.
